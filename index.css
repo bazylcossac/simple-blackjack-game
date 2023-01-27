@@ -1,0 +1,52 @@
+/* Complete the CSS styling according to the provided design */
+
+body {
+    background-image:url("https://img.freepik.com/premium-vector/poker-casino-monochrome-suit-deck-playing-cards-black-background_47243-1732.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+    
+   
+
+}
+
+h1 {
+    color: goldenrod;
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+    
+   
+}
+
+#message-el {
+    color:white;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+
+}
+P{
+    color:white;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size:25px;
+
+}
+#buttons{
+    display: flex;
+    justify-content: center;
+    
+}
+input{
+   margin-right: 30px;
+   background-color:#222222;
+   color:white;
+    font-family: 'Oswald', sans-serif;
+    border:none;
+	margin-bottom:50px;
+    
+   
+}
+input:active{
+    transform: scale(1.1)
+}
